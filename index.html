@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="./style.css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">WebDev</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">More</a>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-item"><a href="#testimonials">Testimonials</a></li>
+                            <li class="dropdown-item"><a href="#blog">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about container" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-description">I am a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <section class="services container" id="services">
+        <h2 class="section-title">Services</h2>
+        <p class="section-description">I offer a range of services including web design, development, and maintenance.</p>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-description">Check out my latest projects and see what I can do for you.</p>
+    </section>
+
+    <section class="contact container" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" class="contact-input" placeholder="Your Name" required>
+            <input type="email" class="contact-input" placeholder="Your Email" required>
+            <input type="tel" class="contact-input" placeholder="Your Phone" required>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <section class="testimonials container" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <p class="section-description">"Great work! Highly recommend!" - Client A</p>
+    </section>
+
+    <footer class="footer container">
+        <p class="footer-text">Phone: (123) 456-7890 | Address: 123 Web St, Web City</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">FB</a>
+            <a href="#" class="social-icon">TW</a>
+            <a href="#" class="social-icon">IG</a>
+        </div>
+    </footer>
+    
+   <script src="./js/jquery-3.7.1.min.js"></script>
+   <script src="./js/jmain.js"></script>
+</body>
+</html>
