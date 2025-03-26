@@ -3,7 +3,7 @@ $(function(){
     
     let section = $('.about-foto').before('<h3 class="foto-h3">In my free time, I enjoy traveling to new places and experiencing different cultures. Exploring the world not only broadens my horizons but also inspires my creativity. Additionally, I have a passion for drawing, which allows me to express my thoughts and ideas visually. Whether its sketching landscapes from my travels or experimenting with different art styles, drawing is a fulfilling hobby that brings me joy and relaxation.Feel free to adjust any part of it to better reflect your personality!</h3>')
     $('.foto-h3').css('font-family', 'Montserrat', 'serif').css('font-size', '1.1em').css('color', '#333')
-    $('.about-foto').before('<img src="../image/QpYuECWsJ7k.jpg" width="300" height="400">').before('<img src="../image/JAB4YgfTQN0.jpg" width="300" height="400">').before('<img src="../image/mfEiEtDXw9I.jpg" width="300" height="400">')
+   
 });
 
 $(function(){
@@ -81,4 +81,6 @@ function submitFeedback() {
         alert('Please enter a review before submitting.');
     }
 }
+
+
 
