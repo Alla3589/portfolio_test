@@ -79,6 +79,46 @@ function submitFeedback() {
         alert('Please enter a review before submitting.');
     }
 }
+$(function(){
+    let link = $('ul li a');
+    link.hover(function(){
+    $(this).addClass('btn-feedbac');
+  },function() {
+    $(this).removeClass('btn-feedbac')
+  });
+
+})
+
+$(function() {
+    $('').click(function(e){
+        e.preventDefault();
+       
+    })
+});
+
+$(document).ready(function() {
+    $('.gallerey_small a').click(function(e) {
+        if($('.gallerey_big img').attr('src')!==$(this).attr('href')){
+            $('.gallerey_big img').hide().attr('src', $(this).attr('href')).fadeIn(1000)
+        }
+       
+        e.preventDefault();
+
+    });
+
+    $('.button').click(function() {
+        $('.blog_gallerey').slideToggle(500);
+        if($('.button').text()=='-'){
+            $('.button').text('+');
+        } else {
+            $('.button').text('-');
+        }
+        
+    })
+    
+});
+    
+
 
 
 

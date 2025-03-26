@@ -453,3 +453,45 @@ height: 50px;
 margin-top: 20px;
 margin-left: -3px;
 }
+
+.blog_gallerey {
+padding: 20px;
+border: 20px soli gray;
+width: 1200px;
+margin: 10px auto;
+height: 1080px;
+margin-bottom: 90px;
+}
+
+.gallerey_big {
+background-image: url("../images/gallery/loader.gif");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+width: 500px;
+height: 281px;
+margin-left: 80px;
+}
+
+.gallerey_small {
+margin-top: 280px;
+margin-left: 82px;
+}
+
+.gallerey_small a img {
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.button:hover {
+    cursor: pointer;
+}
