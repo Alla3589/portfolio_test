@@ -71,7 +71,7 @@ background: linear-gradient(to bottom, gray, white);
 font-size: 2em;
 margin: 40px 0 20px;
 text-align: center;
-padding-bottom: 40px;
+padding-bottom: 15px;
 }
 
 .section-description {
@@ -124,16 +124,19 @@ padding-bottom: 40px;
 }
 
 .pricing-table {
-    background-color: #fff;
+    width: 1200px;
+    background-color: #ccc;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 table {
-    width: 100%;
+   
     border-collapse: collapse;
     margin-bottom: 20px;
+    table-layout: fixed;
+    width: 100%;
 }
 
 th, td {
@@ -159,13 +162,7 @@ th {
     padding-left: 20px;
 }
 
-.calculator {
-    margin: 40px 0;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+
 
 .service-option {
     margin: 10px 0;
@@ -196,18 +193,20 @@ th {
     display: flex;
     justify-content: space-between;
 }
-
 button {
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
+    background-color: gray;
     color: white;
     cursor: pointer;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: -50px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: gray;
 }
 
 #feedback-list {
@@ -240,18 +239,6 @@ button:hover {
     justify-content: space-between;
 }
 
-button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
 
 #feedback-list {
     margin-top: 20px;
@@ -348,4 +335,121 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 30px;
 margin-left: -80px;
+}
+
+.footer-text {
+    font-size: 1.5em;
+    color: #333;
+    font-family:'Montserrat', serif ;
+}
+.social-icon {
+    color: grey;
+    font-size: 1.3em;
+}
+h4 {
+font-size: 1.8em;
+color: #ccc;
+
+}
+h5 {
+    font-size: 1.4em;
+    color: #ccc;
+       
+}
+
+.section-description_foto {
+font-size: 1.5em;
+width: 950px;
+height: 200px;
+color: #333;
+text-align: center;
+padding-left: 170px;
+}
+
+.pricing-table {
+margin-left: 120px;
+}
+.tb_item {
+margin-left: 140px;
+}
+.nav {
+list-style: none;
+font-size: 1.3em;
+}
+.pricing_nav {
+display: flex;
+padding-left: 150px;
+}
+.li_nav {
+padding-right: 30px;
+}
+.detalis-h3  {
+font-size: 1.5em;
+color: #333;
+padding-left: 480px;
+}
+.section-title_text_h2 {
+font-size: 3em;
+color: #333;
+padding-left: 620px;
+padding-bottom: 50px;
+}
+.item-animate {
+margin-left: 400px;
+}
+#calculator {
+margin-left: 160px;
+margin-top: 100px;
+}
+.service-option {
+border: solid #333 20px;
+width: 500px;
+margin-left: -100px;
+background-color: gray;
+}
+.total-cost {
+border: solid #333 15px;
+background-color: gray;
+width: 300px;
+}
+.item_form {
+margin-left: 280px;
+}
+.btn-btn {
+margin-left: 50px;
+background-color: #333;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+height: 50px;
+}
+#feedback {
+margin-left: 150px;
+}
+.btn-feedbac {
+border: none;
+border-radius: 4px;
+ background-color: #333;
+color: white;
+cursor: pointer;
+width: 200px;
+height: 50px;
+margin-top: 20px;
+}
+.feefbac-btn {
+display: flex;
+justify-content: space-between;
+}
+.btn-feedbac-1 {
+border: none;
+border-radius: 4px;
+background-color: #333;
+color: white;
+cursor: pointer;
+width: 200px;
+height: 50px;
+margin-top: 20px;
+margin-left: -3px;
 }
