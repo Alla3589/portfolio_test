@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 body {
 margin: 0;
 font-family: 'Montserrat', serif;
-background: linear-gradient(to bottom, #ffffff, #a8e6cf);
+background: linear-gradient(to bottom, gray, white);
 
 }
 
@@ -27,7 +27,7 @@ background: linear-gradient(to bottom, #ffffff, #a8e6cf);
 }
 
 .header {
-    background-color: #fff;
+    background-color: gray;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -68,8 +68,10 @@ background: linear-gradient(to bottom, #ffffff, #a8e6cf);
 }
 
 .section-title {
-    font-size: 2em;
-    margin: 40px 0 20px;
+font-size: 2em;
+margin: 40px 0 20px;
+text-align: center;
+padding-bottom: 40px;
 }
 
 .section-description {
@@ -90,7 +92,7 @@ background: linear-gradient(to bottom, #ffffff, #a8e6cf);
 }
 
 .btn {
-    background-color: #4caf50;
+    background-color: #333;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -274,4 +276,76 @@ button:hover {
 
 #feedback-list li button:hover {
     background-color: #c82333; /* Darker red on hover */
+}
+
+table {
+    width: 850px;
+    border-top: 7px solid #333;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+  }
+  
+  td {
+    text-align: center;
+    border: 3px solid #333;
+    background-color: gray;
+    color: #ccc;
+  }
+   th {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #333;
+    background-color: gray;
+    color: #ccc;
+   
+   }
+ .header-menu {
+display: flex;
+justify-content: space-between;
+ }
+ .logo_h2 {
+ color: white;
+ font-size: 2.5em;
+ font-family:'Montserrat', serif ;
+ }
+#about {
+background-image: url(../image/image-3-1536x1024.webp);
+height: 900px;
+
+}
+.section-title-h2 {
+ text-align: center;
+ font-size: 3em;
+ color: #333;
+}
+.section-description-p {
+ text-align: center;
+ color: #333;
+ width: 1200px;
+
+}
+.section-description_serv {
+ text-align: center;
+ color: #333;
+ font-size: 1.5em;
+}
+.services-table {
+margin-left: -50px;
+padding-top: 50px;
+}
+.section {
+    width: 1200px;
+    border-top: 7px solid #333;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+.video {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+margin-left: -80px;
 }

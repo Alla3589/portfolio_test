@@ -1,8 +1,6 @@
 $(function(){
     let tagP = $('#about p').text('I am a beginner web developer with a strong foundation in HTML, CSS, and JavaScript. I am passionate about creating visually appealing and user-friendly websites. Currently, I am in the process of expanding my skill set by learning the jQuery library, which will enhance my ability to create dynamic and interactive web applications. I am eager to continue my journey in web development, and I am excited to take on new challenges that will help me grow as a developer.Feel free to modify it to better fit your style or add any additional information!').hide(3000).show(2000);
     
-    let section = $('.about-foto').before('<h3 class="foto-h3">In my free time, I enjoy traveling to new places and experiencing different cultures. Exploring the world not only broadens my horizons but also inspires my creativity. Additionally, I have a passion for drawing, which allows me to express my thoughts and ideas visually. Whether its sketching landscapes from my travels or experimenting with different art styles, drawing is a fulfilling hobby that brings me joy and relaxation.Feel free to adjust any part of it to better reflect your personality!</h3>')
-    $('.foto-h3').css('font-family', 'Montserrat', 'serif').css('font-size', '1.1em').css('color', '#333')
    
 });
 
@@ -19,7 +17,7 @@ $(function(){
 
 $(function(){
     $('.nav-list li a').css('color', 'white').css('font-size', '25px')
-    $('.section-title').css('color', 'green').css('font-size', '40px')
+    $('.section-title').css('color', '#333').css('font-size', '3em')
     $('.logo').css('color', 'white').css('font-size', '40px')
     $('.header').css('background-color', 'gray')
 

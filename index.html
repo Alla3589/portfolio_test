@@ -1,111 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
     <link rel="stylesheet" href="./style.css/main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo">WebDev</div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">More</a>
-                        <ul class="dropdown-list">
-                            <li class="dropdown-item"><a href="#testimonials">Testimonials</a></li>
-                            <li class="dropdown-item"><a href="#blog">Blog</a></li>
+            <div class="header-menu">
+                <div class="menu_logo">
+                    <h2 class="logo_h2">Web dizain</h2>
+                </div>
+                <div class="menu">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link">More</a>
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-item"><a href="#testimonials">Testimonials</a></li>
+                                    <li class="dropdown-item"><a href="#blog">Blog</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
-            </nav>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="about container" id="about">
-        <h2 class="section-title">About Me</h2>
-        <p class="section-description">I am a web developer with a passion for creating beautiful and functional websites.</p>
-        <div class="about-foto">
-            
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title-h2">About Me</h2>
+            <div class="about-text">
+                <p class="section-description-p">I am a web developer with a passion for creating beautiful and
+                    functional
+                    websites.</p>
+            </div>
+            <div class="about-foto">
+
+
+            </div>
         </div>
     </section>
 
     <section class="services container" id="services">
-        <h2 class="section-title">Services</h2>
-        <p class="section-description">I offer a range of services including web design, development, and maintenance.</p>
-    </section>
+        <div class="container">
+            <div class="services_text">
+                <h2 class="section-title">Services</h2>
+                <p class="section-description_serv">I offer website development and layout services.
+                    Website layout based on Figma layouts, layout based on technical specifications, possibly without a
+                    layout, but with a precise understanding of your wishes.</p>
+            </div>
+            <div class="services-table">
+                <table class="section">
 
-    <section class="portfolio container" id="portfolio">
-        <h2 class="section-title">Portfolio</h2>
-        <p class="section-description">Check out my latest projects and see what I can do for you.</p>
-        <section class="pricing container" id="pricing">
-            <h2 class="section-title">Pricing</h2>
-            <div class="pricing-table">
-                <table>
                     <thead>
-                        <tr>
-                            <th>Service</th>
-                            <th>Price (per hour)</th>
+                        <tr class="list">
+                            <th class="main-table">Services</th>
+                            <th class="main-table">Blocks</th>
+                            <th class="main-table">Day</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Web Development</td>
-                            <td>800 RUB</td>
+                        <tr class="list">
+                            <td class="item">One page site</td>
+                            <td class="item">4 blocks</td>
+                            <td class="item">2 day</td>
+                        </tr>
+                        <tr class="list">
+                            <td class="item">Website 2 pages</td>
+                            <td class="item">6-8 bloks</td>
+                            <td class="item">3 day</td>
+                        </tr>
+                        <tr class="list">
+                            <td class="item">Landing site</td>
+                            <td class="item">Multi-line</td>
+                            <td class="item">5-7 day</td>
                         </tr>
                     </tbody>
+
                 </table>
-                <div class="pricing-details">
-                    <h3>What's Included:</h3>
-                    <ul>
-                        <li>Responsive design for all devices</li>
-                        <li>Navigation menu</li>
-                        <li>Animations</li>
-                        <li>Layouts of any complexity</li>
-                    </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-team">
+                <div class="text_foto">
+                    <p class="section-description">Check out my latest projects and see what I can do for you.</p>
+                </div>
+                <div class="video">
+                    <div class="portfolio-image">
+                        <video width="400px" height="400px" controls>
+                            <source src="./video/Запись 2025-03-26 130245.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="portfolio-image">
+                        <video width="400px" height="400px" controls>
+                            <source src="./video/Запись 2025-03-26 131330.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="portfolio-image">
+                        <video width="400px" height="400px" controls>
+                            <source src="./video/Запись 2025-03-26 131504.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
-        </section>
-        <section class="calculator container" id="calculator">
-            <h2 class="section-title">Service Calculator</h2>
-            <form id="service-form">
-                <div class="service-option">
-                    <label>
-                        <input type="checkbox" class="service" value="800"> Web Development (800 RUB per hour)
-                    </label>
-                </div>
-                <div class="service-option">
-                    <label>
-                        <input type="checkbox" class="service" value="500"> Responsive Design (500 RUB)
-                    </label>
-                </div>
-                <div class="service-option">
-                    <label>
-                        <input type="checkbox" class="service" value="300"> Navigation Menu (300 RUB)
-                    </label>
-                </div>
-                <div class="service-option">
-                    <label>
-                        <input type="checkbox" class="service" value="400"> Animations (400 RUB)
-                    </label>
-                </div>
-                <div class="service-option">
-                    <label>
-                        <input type="checkbox" class="service" value="600"> Complex Layouts (600 RUB)
-                    </label>
-                </div>
-                <div class="total-cost">
-                    <h3>Total Cost: <span id="total">0</span> RUB</h3>
-                </div>
-                <button type="button" onclick="calculateTotal()">Calculate</button>
-            </form>
-        </section>
+        </div>
+    </section>
+    <section class="pricing container" id="pricing">
+        <h2 class="section-title">Pricing</h2>
+        <div class="pricing-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price (per hour)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>800 RUB</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pricing-details">
+                <h3>What's Included:</h3>
+                <ul>
+                    <li>Responsive design for all devices</li>
+                    <li>Navigation menu</li>
+                    <li>Animations</li>
+                    <li>Layouts of any complexity</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section class="calculator container" id="calculator">
+        <h2 class="section-title">Service Calculator</h2>
+        <form id="service-form">
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" class="service" value="800"> Web Development (800 RUB per hour)
+                </label>
+            </div>
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" class="service" value="500"> Responsive Design (500 RUB)
+                </label>
+            </div>
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" class="service" value="300"> Navigation Menu (300 RUB)
+                </label>
+            </div>
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" class="service" value="400"> Animations (400 RUB)
+                </label>
+            </div>
+            <div class="service-option">
+                <label>
+                    <input type="checkbox" class="service" value="600"> Complex Layouts (600 RUB)
+                </label>
+            </div>
+            <div class="total-cost">
+                <h3>Total Cost: <span id="total">0</span> RUB</h3>
+            </div>
+            <button type="button" onclick="calculateTotal()">Calculate</button>
+        </form>
+    </section>
 
     <section class="contact container" id="contact">
         <h2 class="section-title">Contact Me</h2>
@@ -140,8 +217,9 @@
             <a href="#" class="social-icon">IG</a>
         </div>
     </footer>
-    
-   <script src="./js/jquery-3.7.1.min.js"></script>
-   <script src="./js/jmain.js"></script>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jmain.js"></script>
 </body>
+
 </html>
